@@ -23,7 +23,7 @@ Edit distance is a matrix base technique that can be used to correct spell corre
 
 ## Training Roberta
 
-RoBERTa ( Robustly Optimized Pretrained BERT Approach) is a transformer base model, It can be used to train on new dataset and get the results. First the tokenizer is trained on new dataset and then RoBERTa is trained using famous platform Huggingface. RoBERTa model can be used for various tasks and missing word prediction is one of them.
+RoBERTa ( Robustly Optimized Pretrained BERT Approach) is a transformer base model, It can be used to train on new dataset and get the results. RoBERTa model can be used for various tasks and missing word prediction is one of them. First the tokenizer is trained on new dataset and then RoBERTa is trained using famous platform Huggingface. RoBERTa Base and RoBERTa Distilled models are trained.
 
 ## Word Prediction
 
@@ -31,4 +31,9 @@ Over two hundered sentences are taken out randomly as test dataset, One word at 
 
 ## Comparing Results
 
-From the results it is concluded that RoBERTa performed well on prediction task as comapred to Word2Vec and Fasstext. Because RoBERTa can preserve context and it can predict more accuratly.
+From the results it is concluded that RoBERTa performed well on prediction task as comapred to Word2Vec and Fasstext. Because RoBERTa can preserve context and it can predict more accurately.
+
+## References
+
+[Paper Reference](https://ieeexplore.ieee.org/document/9972938)
+[HuggingFace Reference](https://huggingface.co/themohal/saraiki-roberta-base-small-finetuned3)
