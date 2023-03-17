@@ -2,8 +2,9 @@
 This repository is about MS Thesis Research Title Saraiki Langange Word Prediction and Spell Correction Framework. Saraiki language is local language of Pakistan. To the best of our knowledge this is first research conducted on the language using Natural Language Processing with Deep Learning.
 
 ## Architecure
-<img src= https://github.com/themohal/MS-AI-Research/blob/main/Copy%20of%20Copy%20of%20Farjad%20Poster%20Thesis.png width="500" height="300" />
-
+<p align="center">
+<img src= https://github.com/themohal/MS-AI-Research/blob/main/Copy%20of%20Copy%20of%20Farjad%20Poster%20Thesis.png width="600" height="400" />
+</p>
 
 
 ## Data Gathering
@@ -21,6 +22,10 @@ Word2Vec and Fasttext are two models are trained to extract embeddings. Word2vec
 ## Similarity Check
 
 Wordsim353 is state of the art dataset to check similarity. It is translated to Saraiki and check the similarity of Word2Vec and Fasttext models. Results are compared to to know the best vector size and window size.
+
+<p align="center">
+<img src= https://github.com/themohal/MS-AI-Research/blob/main/ezgif-2-c608052d55.gif width="500" height="300" />
+</p>
 
 ## Spell Correction
 Edit distance is a matrix base technique that can be used to correct spell correction in strings. Hundered words are taken from Saraiki language randomly and delibratelty incorrected with different character sizes. Spell correction performed worst as we increased wrong characters.
@@ -40,4 +45,5 @@ From the results it is concluded that RoBERTa performed well on prediction task 
 ## References
 
 [Paper Reference](https://ieeexplore.ieee.org/document/9972938)
+
 [HuggingFace Reference](https://huggingface.co/themohal/saraiki-roberta-base-small-finetuned3)
