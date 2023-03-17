@@ -1,7 +1,7 @@
 # MS-AI-Research NLP
 This repository is about MS Thesis Research Title Saraiki Langange Word Prediction and Spell Correction Framework. Saraiki language is local language of Pakistan. To the best of our knowledge this is first research conducted on the language using Natural Language Processing with Deep Learning.
 
-## Architecure
+## Architecture
 <p align="center">
 <img src= https://github.com/themohal/MS-AI-Research/blob/main/Copy%20of%20Copy%20of%20Farjad%20Poster%20Thesis.png width="600" height="400" />
 </p>
